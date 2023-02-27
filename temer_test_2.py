@@ -6,9 +6,10 @@ import pandas as pd
 import numpy as np
 import requests
 import time
+from credentials import key
 
 _url = 'https://api.projectoxford.ai/emotion/v1.0/recognizeInVideo'
-_key = 'cf409a7f89634260b43da6901ff681dd'
+_key = key
 _maxNumRetries = 10
 
 #paramsPost = urllib.urlencode({'outputStyle': 'perFrame',
